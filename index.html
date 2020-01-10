@@ -11,7 +11,7 @@
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
             <div class="nav-title">
-            test
+            Name der Website
             </div>
         </div>
         <div class="nav-btn">
@@ -21,15 +21,15 @@
             <span></span>
             </label>
         </div>
-        
         <div class="nav-links">
-            <a href="" target="_blank">Über Uns</a>
-            <a href="" target="_blank">Kontakt</a>
-            <a href="" target="_blank">1</a>
-            <a href="" target="_blank">2</a>
-            <a href="" target="_blank">3</a>
+          <a href="aboutUs.html" target="frame">Über Uns</a>
+          <a href="contact.html" target="frame">Kontakt</a>
+          <a href="" target="frame">1</a>
+          <a href="" target="frame">2</a>
+          <a href="" target="frame">3</a>
         </div>
-    </div>
+      </div>
+    <iframe name="frame" class="frame" src="" frameborder="0" ></iframe>
     <div class="footer">
         <a href="">Impressum</a>
         <a href="">Datenschutz</a>
@@ -37,6 +37,10 @@
   </body>
 
   <style>
+    .frame {
+      width: 100%;
+    }
+
     * {
   box-sizing: border-box;
 }
@@ -44,6 +48,7 @@
 body {
   margin: 0px;
   font-family: 'segoe ui';
+  height: 100%;
 }
 
 .nav {
@@ -143,6 +148,11 @@ body {
         background-color: #333;
         color: white;
         text-align: center;
+        height: 60px;
+    }
+
+    .footer > a {
+        color: lightgray;
     }
 
     body {
