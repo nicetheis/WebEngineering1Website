@@ -9,11 +9,13 @@
   <body>
     <div class="nav">
         <input type="checkbox" id="nav-check">
-        <div class="nav-header">
+        <a href="home.html" target="frame" id="homeNavigation">
+          <div class="nav-header">
             <div class="nav-title">
-            Name der Website
+              Zauberervermittlung</a>
             </div>
-        </div>
+          </div>
+        </a>
         <div class="nav-btn">
             <label for="nav-check">
             <span></span>
@@ -24,12 +26,12 @@
         <div class="nav-links">
           <a href="aboutUs.html" target="frame">Über Uns</a>
           <a href="contact.html" target="frame">Kontakt</a>
-          <a href="" target="frame">1</a>
-          <a href="" target="frame">2</a>
-          <a href="" target="frame">3</a>
+          <a href="application.html" target="frame">Bewerben</a>
+          <a href="schools.html" target="frame">Schulen</a>
+          <a href="help.html" target="frame">Hilfe</a>
         </div>
       </div>
-    <iframe name="frame" class="frame" src="" frameborder="0" ></iframe>
+    <iframe name="frame" class="frame" src="home.html" frameborder="0" ></iframe>
     <div class="footer">
         <a href="imprint.html" target="frame">Impressum</a>
         <a href="dataProtection.html" target="frame">Datenschutz</a>
@@ -94,7 +96,16 @@
       display: none;
     }
 
-    @media (max-width:600px) {
+    #homeNavigation {
+      text-decoration: none;
+      color: #efefef;
+    }
+
+    .nav-title:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    @media (max-width:635px) {
       .nav > .nav-btn {
         display: inline-block;
         position: absolute;
