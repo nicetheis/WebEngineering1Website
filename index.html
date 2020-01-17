@@ -1,175 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Home</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/home.css">
+
     <title>Magic Connect</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/navigation.css">
   </head>
+
   <body>
     <div class="nav">
-        <input type="checkbox" id="nav-check">
-          <div class="nav-header">
-        <a href="home.html" target="frame">
-            <div class="nav-title">
-            Magic Connect
-            </div>
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <a href="index.html">
+          <div class="nav-title">
+              Magic Connect
+          </div>
         </a>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+        </label>
+      </div>
+      <div class="nav-links">
+        <a href="aboutUs.html">Über Uns</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="application.html">Bewerben</a>
+        <a href="career.html">Karriere</a>
+        <a href="schools.html">Schulen</a>
+        <a href="help.html">Hilfe</a>
+      </div>
+    </div>
+
+    <div class="slider-holder">
+      <span id="slider-image-1"></span>
+      <span id="slider-image-2"></span>
+      <span id="slider-image-3"></span>
+      <div class="image-holder">
+        <div class="slider-image img1">
+          <h1>Magic Connect</h1>
+          <h4>Mit Zufriedenheitsgarantie!</h4>
         </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-            </label>
-        </div>
-        <div class="nav-links">
-          <a href="aboutUs.html" target="frame">Über Uns</a>
-          <a href="contact.html" target="frame">Kontakt</a>
-          <a href="application.html" target="frame">Bewerben</a>
-          <a href="schools.html" target="frame">Schulen</a>
-          <a href="help.html" target="frame">Hilfe</a>
+        <div class="slider-image img2"><h1>Entdecken Sie unsere Schulen!</h1></div>
+        <div class="slider-image img3"><h1>Jetzt Bewerben!</h1></div>
+      </div>
+    </div>
+
+    <div class="slider-div">
+      <a href="#slider-image-1" class="slider-item">Unternehmen</a>
+      <a href="#slider-image-2" class="slider-item">Schulen</a>
+      <a href="#slider-image-3" class="slider-item">Bewerbung</a>
+    </div>
+
+    <div class="row">
+
+      <div class="main">
+        <h1>Wer sind wir?</h1>
+        <p>Wir sind eine neue weltweite Anlaufstelle für alle Hexen, Zauberer und magischen Geschöpfe auf dieser Erde.
+          <br>Wir realisieren Visionen von jungen Menschen mit Kreativität und besonderen Talenten.
+          <br>Unsere Partnerschulen zeigen Ihnen dabei ungeahnte Möglichkeiten auf.</p>
+        <br>
+        <h1>Was wollen wir?</h1>
+        <p>Unser Ziel ist es das Außergewöhnliche in Jugendlichen zu fördern und zu fordern.<br>Wir bieten einen qualifizierten Service, der auch für SIE die richtige Zauberschule findet.</p>
+        <br><br>
+        <marquee class="banner" scrollamount=3 scrolldelay=1><h3>+++ Beginne deine Reise jetzt und werde ein Teil der Zauberwelt +++</h3></marquee>
+        <br><br><br>
+        <h1>Noch Zweifel?</h1>
+        <p>Du bist dir nicht sicher, ob du zu uns gehörst?
+        <br>Nur Wesen mit magischen Fähigkeiten können uns finden.
+        <br>Alle No-Maj, Kann nicht Zauber oder Muggel finden sich <b><a class="link" target="_blank" href="https://www.arbeitsagentur.de/bildung">hier</a></b> ein.
+        <br>Also trau dich! Informiere dich über unsere Schulen und nimm Kontakt mit uns auf.
+        <br>Wir warten auch DICH!</p>
+      </div>
+
+      <div class="side">
+        <h2>Erfolgsgeschichten</h2>
+
+        <div class="side_container">
+          <div><img src="Img/home_zauberer1.jpg" alt="user" class="persons" style="height:200px;" />
+          <p><b>Hexer3487: </b>"Es war der Start meiner Karriere..."</p></div>
+
+          <div><img src="Img/home_zauberer2.jpg" alt="user" class="persons" style="height:200px;" />
+          <p><b>THE MAGICAL: </b>"Die Zauberschule hat mein Leben verändert!"</p></div>
+
+          <div><img src="Img/home_zauberer3.jpg" alt="user" class="persons" style="height:200px;" />
+          <p><b>Anonym: </b>"Ich habe herausgefunden wer ich bin und was ich kann."</p></div>
         </div>
       </div>
-    <iframe name="frame" class="frame" src="home.html" frameborder="0" ></iframe>
-    <div class="footer">
-        <a href="imprint.html" target="frame">Impressum</a>
-        <a href="dataProtection.html" target="frame">Datenschutz</a>
     </div>
+
+    <div class="footer">
+      <a href="imprint.html">Impressum</a>
+      <a href="dataProtection.html">Datenschutz</a>
+    </div>
+
   </body>
-
-  <style>
-    .frame {
-      width: 100%;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0px;
-      font-family: 'segoe ui';
-      height: 100%;
-    }
-
-    .nav {
-      height: 50px;
-      width: 100%;
-      background-color: #4d4d4d;
-      position: relative;
-    }
-
-    .nav-header {
-      display: inline;
-    }
-
-    .nav-title {
-      display: inline-block;
-      font-size: 22px;
-      color: #fff;
-      padding: 10px 10px 10px 10px;
-    }
-
-    .nav > .nav-btn {
-      display: none;
-    }
-
-    .nav > .nav-links {
-      display: inline;
-      float: right;
-      font-size: 18px;
-    }
-
-    .nav > .nav-links > a {
-      display: inline-block;
-      padding: 13px 10px 13px 10px;
-      text-decoration: none;
-      color: #efefef;
-    }
-
-    .nav > .nav-links > a:hover {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-
-    .nav > #nav-check {
-      display: none;
-    }
-
-    .nav-title {
-      text-decoration: none;
-      color: #efefef;
-    }
-
-    .nav-title:hover {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-
-    @media (max-width:635px) {
-      .nav > .nav-btn {
-        display: inline-block;
-        position: absolute;
-        right: 0px;
-        top: 0px;
-      }
-      .nav > .nav-btn > label {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        padding: 13px;
-      }
-      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-        background-color: rgba(0, 0, 0, 0.3);
-      }
-      .nav > .nav-btn > label > span {
-        display: block;
-        width: 25px;
-        height: 10px;
-        border-top: 2px solid #eee;
-      }
-      .nav > .nav-links {
-        position: absolute;
-        display: block;
-        width: 100%;
-        background-color: #333;
-        height: 0px;
-        transition: all 0.3s ease-in;
-        overflow-y: hidden;
-        top: 50px;
-        left: 0px;
-      }
-      .nav > .nav-links > a {
-        display: block;
-        width: 100%;
-      }
-      .nav > #nav-check:not(:checked) ~ .nav-links {
-        height: 0px;
-      }
-      .nav > #nav-check:checked ~ .nav-links {
-        height: calc(100vh - 50px);
-        overflow-y: auto;
-      }
-    }
-
-    .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #333;
-      color: white;
-      text-align: center;
-      height: 60px;
-      padding-top:10px;
-    }
-
-    .footer > a {
-      color: lightgray;
-      padding: 10px;
-    }
-
-    body {
-      margin: 0px;
-    }
-  </style>
 </html>
