@@ -1,0 +1,43 @@
+form {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: white;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.form-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+.form-button:hover {
+    background-color: #444444;
+}
+
+input {
+    width:250px;
+    height: 30px;
+}
+
+textarea {
+    width:250px;
+}
+
+.content {
+    background-image: url("../Img/brandon-morgan-3qucB7U2l7I-unsplash.jpg");
+}

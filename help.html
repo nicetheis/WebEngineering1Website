@@ -1,1 +1,245 @@
-<p>Hilfe</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Magic Connect</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/navigation.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .content {
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .left,
+        .main,
+        .right {
+            width: 33.3%;
+            height: auto;
+        }
+
+        .q_and_a {
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 50px;
+        }
+
+        .question {
+            margin-top: 40px;
+        }
+
+        .answer {
+            margin-left: 5%;
+            margin-top: -10px;
+        }
+
+
+        @media screen and (max-width: 1400px) {
+            .content {
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        }
+
+        @media screen and (max-width: 1100px) {
+            .content {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+        }
+
+        @media screen and (max-width: 950px) {
+
+            .left,
+            .main,
+            .right {
+                width: 50%;
+            }
+
+            .q_and_a {
+                margin-left: 3%;
+                margin-right: 3%;
+                margin-bottom: 50px;
+            }
+        }
+
+        @media screen and (max-width: 650px) {
+
+            .left,
+            .main,
+            .right {
+                width: 100%;
+            }
+
+            .content {
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+
+            .q_and_a {
+                margin-left: 2%;
+                margin-right: 2%;
+                margin-bottom: 50px;
+            }
+        }
+
+
+        /* Cards */
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 96%;
+            margin: 2%;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <a href="index.html">
+                <div class="nav-title">
+                    Magic Connect
+                </div>
+            </a>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+        <div class="nav-links">
+            <a href="aboutUs.html">Über Uns</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="application.html">Bewerben</a>
+            <a href="career.html">Karriere</a>
+            <a href="schools.html">Schulen</a>
+            <a href="help.html">Hilfe</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1 style="text-align: center;">Deine Ansprechpartner</h1>
+        <div class="row">
+            <div class="left">
+                <div class="card">
+                    <img src="Img/Ansprechpartner1.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h2>Ted Lupin</h2>
+                        <p>Ansprechpartner f&uuml;r <br>Sch&uuml;ler*innen</p>
+                        <p><br><br>0123 45678901</p>
+                        <p>t.lupin@magic.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="card">
+                    <img src="Img/Ansprechpartner2.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h2>Halley Wolowitz</h2>
+                        <p>Ansprechpartnerin <br>f&uuml;r Schulen</p>
+                        <p><br><br>0123 45678902</p>
+                        <p>h.wolowitz@magic.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <img src="Img/Ansprechpartner3.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h2>Molly Weasley</h2>
+                        <p>Ansprechpartnerin <br>f&uuml;r Muggel</p>
+                        <p><br><br>0176 38506739</p>
+                        <p>m.weasley@arbeitsamt.de</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 style="text-align: center; margin-top: 100px;">Fragen und Antworten</h1>
+        <div class="q_and_a">
+            <div class="question">
+                <h4>Muss ich, wenn ich in England wohne, auch in eine englische Schule gehen?</h4>
+            </div>
+            <div class="answer">
+                <p>Nein, prinzipiell darf man sich jede Schule aussuchen. Es wird aber dennoch empfohlen, ein Land zu
+                    w&auml;hlen, dessen Sprache man sehr gut beherrscht.</p>
+            </div>
+
+            <div class="question">
+                <h4>Darf ich mein Haustier mitnehmen?</h4>
+            </div>
+            <div class="answer">
+                <p>Das kommt ganz auf die Schule drauf an. Meistens wird ein Haustier aber sogar vorrausgesetzt.</p>
+            </div>
+
+            <div class="question">
+                <h4>Darf ich &uuml;ber das Wochenende nach Hause und meine Familie besuchen?</h4>
+            </div>
+            <div class="answer">
+                <p>Die meisten Schulen in unserem Programm sind als Internat ausgelegt. Tortzdem ist es m&ouml;glich,
+                    &uuml;ber die Ferien die Schule zu verlassen.</p>
+            </div>
+
+            <div class="question">
+                <h4>Gibt es Freizeitangebote an den Schulen?</h4>
+            </div>
+            <div class="answer">
+                <p>Das Freizeitprogramm ist f&uuml;r jede Schule individuell. Wenn du mehr &uuml;ber die Angebote der
+                    einzelnen Schulen kennen lernen willst, schau dir doch die einzelnen <a
+                        href="schools.html">Schulen</a>
+                    an oder kontaktiere unseren Ansprechpartner für Sch&uuml;ler.
+                </p>
+            </div>
+
+            <div class="question">
+                <h4>Wie lange dauert es, bis ich an eine Schule vermittelt werde?</h4>
+            </div>
+            <div class="answer">
+                <p>Meistens l&auml;uft die Vermittlung relativ schnell ab (in der Regel 2-4 Wochen). Trotzdem empfehlen
+                    wir, sich mindestens 2 Monate vorher zu bewerben.</p>
+            </div>
+
+            <div class="question">
+                <h4>Kann ich auf eine andere Schule wechseln?</h4>
+            </div>
+            <div class="answer">
+                <p>Ja, das geht nach Vollendung eines jeden Schuljahres.</p>
+            </div>
+        </div>
+    </div>
+
+</html>
+
+<div class="footer">
+    <a href="contact.html">Kontakt</a>
+    <a href="imprint.html">Impressum</a>
+    <a href="dataProtection.html">Datenschutz</a>
+</div>
+</body>
+
+</html>
