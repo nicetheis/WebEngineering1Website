@@ -1,6 +1,6 @@
 @font-face{
   font-family:"Copperplate Gothic";
-  src:url("copperpate.woff");
+  src:url("/font/copperpate.woff");
   
 }
 
@@ -11,18 +11,31 @@
   font-size: large;
  }
 
-   h1,h2,h3
+   h1,h2
  {
   font-family: "Copperplate Gothic";
-  font-size: 5rem;
+  font-size: 2.25rem;
   font-weight: inherit;
+  color: #494b49;
+  text-align:right;
  }
 
   .signature
  {
-    width: 33%;
+    width: 23%;
  }
+
+ @media (max-width:400px) {
+  .signature{
+    width:400%;
+  }
+}
    p.position
  {
-  position:"right";
+  text-align: justify;
+ }
+
+ p
+ {
+   font-size: 0.9rem;
  }
