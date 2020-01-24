@@ -39,5 +39,12 @@ textarea {
 }
 
 .content {
+    flex: 1;
     background-image: url("../Img/brandon-morgan-3qucB7U2l7I-unsplash.jpg");
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
