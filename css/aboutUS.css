@@ -20,10 +20,10 @@
   text-align:right;
  }
 
-  .signature
+ /* .signature
  {
     width: 23%;
- }
+ }*/
 
  @media (max-width:400px) {
   .signature{

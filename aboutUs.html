@@ -27,8 +27,8 @@
     padding-right: 80px;
     padding-bottom: 50px;
     padding-left: 80px;
-    margin-left: 50px;
-    width: 80%;
+    max-width: 80%;
+    margin:auto;
     text-align: justify;
     
   }
@@ -46,10 +46,42 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  
+  .signature{
+    /*margin: 20px;*/
+    float: left;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 20px; 
+  }
 
-.signature{
-  margin: 20px;
-}
+  .signature #Delacour {
+    background: url("/Img/gd1.jpg") no-repeat;
+  }
+  .signature #Granger {
+    background: url("/Img/hg1.jpg") no-repeat;
+  }
+  .signature #Flamel {
+    background: url("/Img/ts1.jpg") no-repeat;
+  }
+  #Delacour:hover {
+    background: url("/Img/gd1.jpg") no-repeat;
+  }
+  #Granger:hover {
+    background: url("/Img/hg1.jpg") no-repeat;
+  }
+
+  #Flamel:hover {
+    background: url("/Img/ts1.jpg") no-repeat;
+  }
+/*
+  .founder {
+   display: none;
+   
+  /*}
+  .flex-containersignature:hover .founder {
+    
+  }
+  display : block; */
 .side-picture{
 float:left;
 margin-right: 10px;
@@ -57,7 +89,14 @@ margin-top: 50px;
 
 }
 .hidden {
-  display: none;
+margin-left: 15px;
+margin-top: 15px;
+margin-right: 15px;
+margin-bottom: 15px;
+overflow: hidden;
+display: none;  
+
+
 }
 
   
@@ -112,15 +151,23 @@ margin-top: 50px;
         In den letzten vier Jahren konnten wir unser Netzwerk noch weiter ausbauen. Mit nun mehr 130 Ländern sind wir das größte Zaubereinetzwerk, das jemals existiert hat. Unsere Standards sind dabei stehts von höchster Qualität und wir verfolgen das Motto, allen Magischen und nicht Magischen Geschöpfen mit höchstem Respekt zu begegnen. 
       </p>
       <h2>Werde auch du Teil und lass dich verzaubern.</h2>
-      <div class="flex-containersignature">
-        <img class="signature" src="Img/gabi.png" alt="Unterschrift Gabrielle Delacour">
-        <img class="signature" src="Img/Hermine.png" alt="Unterschrift Hermine Granger">
-        <img class="signature" src="Img/Flamel.png" alt="Unterschrift Graham Flamel">
+      <div class="flex-containersignature" >
+    <!----  <div class="flex-containersignature" id="Delacour"> -->
+        <img class="signature" id="Delacour"src="Img/gabi.png" alt="Unterschrift Gabrielle Delacour"/>
+       <!---- <img class="founder" src="Img/gd1.jpg" alt="Gabrielle Delacour">
+      </div>  -->
+        
+        <img class="signature" id="Granger" src="Img/Hermine.png"      alt="Unterschrift Hermine Granger"/>
+        
+          <img class="signature" id="Flamel" src="Img/Flamel.png" alt="Unterschrift Graham Flamel"/>
+        </div>
       </div>
     </div>
-  </div>
-  
-  
+    
+     <!---- <img class="founder" src="Img/hg1.jpg" alt="Hermine Granger"> */
+    <img class="founder" src="Img/ts1.jpg" alt="Graham Flamel">
+  </div> -->
+
   <div class="footer">
     <a href="contact.html">Kontakt</a>
     <a href="imprint.html">Impressum</a>
