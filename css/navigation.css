@@ -2,13 +2,18 @@
     box-sizing: border-box;
   }
 
+  @font-face{
+    font-family:"Copperplate Gothic";
+    src:url("../font/copperpate.woff");
+  }
+
   html {
     height: 100%;
   }
 
   body {
     margin: 0px;
-    font-family: 'segoe ui';
+    font-family:"Copperplate Gothic";
     height: 100%;
   }
 
@@ -24,6 +29,7 @@
   }
 
   .nav-title {
+    height: 50px;
     display: inline-block;
     font-size: 22px;
     color: #fff;
@@ -43,6 +49,7 @@
   }
 
   .nav > .nav-links > a {
+    height: 50px;
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
