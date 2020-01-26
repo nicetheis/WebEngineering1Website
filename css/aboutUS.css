@@ -25,13 +25,7 @@
     width: 23%;
  }*/
 
- @media (max-width:400px) {
-  .signature{
-    width:33,33%;
-    display: flex;
-    flex-direction: column;
-  }
-}
+
    p.position
  {
   text-align: justify;
