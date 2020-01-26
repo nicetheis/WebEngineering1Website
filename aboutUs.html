@@ -11,73 +11,111 @@
   <link rel="stylesheet" href="css/navigation.css">
 </head>
 <style>
+ 
  .bottom{
     border-style: none none solid none;
     border-width: 0.5px;
-    border-color: white;
+    border-color: #494B49;
     margin-bottom:100px;
     
      }
 
   .myText {
 
-    color: white;
-    
+    color: #494B49;
+    text-align: justify; 
+    margin: 20%;
+    flex-wrap: wrap;
+    display:left;
   }
   
   
   .flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-top: 50px;
+    /*justify-content: space-between;*/
+    /*margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 50px;
-    margin-left: 50px;
-    
+    margin-left: 50px; */
     background-image: url("/Img/aae1c7695645345c3970e429bde7ccc2.png");
-    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
     border: 3px solid #FEA405;
     /*background-color: white;*/
-    padding-top: 60px;
-    padding-right: 80px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     max-width: 80%;
     margin:auto;
-    text-align: justify;
+    
+    /*position: relative;*/
   }
   .flex-containersignature {
-    display:left;
-    justify-content: space-between;
+    display:flex;
+    /*justify-content: space-between;*/
     flex-wrap: wrap;
+    margin: auto; 
   }
+
+/*.flex-container.myText{
+    position:absolute;
+  }
+  .flex-containersignature.flex-containersignature{
+    position:absolute;
+  }*/
+  
+  
   
   .signature{
-    /*margin: 20px;*/
+    border: 3px solid white;
     float: left;
     width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
     padding: 50px; 
+    height: 150px;
+    margin-bottom:20px ;
+    
+  }
+  .transbox {
+  margin: 80px;
+  background-color: #ffffff;
+  border: 1px solid #494B49;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
   }
 
+.Rahmen{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+ 
   .signature #Delacour {
-    background: url("/Img/gd2.jpg") no-repeat;
+    background: url("/Img/gd1.jpg") no-repeat;
+    background-attachment: fixed; 
   }
   .signature #Granger {
-    background: url("/Img/hg.jpg") no-repeat;
+    background: url("/Img/hg1.jpg") no-repeat;
+    background-attachment: fixed; 
   }
   .signature #Flamel {
-    background: url("/Img/ts1.jpg") no-repeat;
+    background: url("/Img/gfn.jpg") no-repeat;
+    
   }
   #Delacour:hover {
-    background: url("/Img/gd2.jpg") no-repeat;
+    background: url("/Img/gd1.jpg") no-repeat;
+   
   }
   #Granger:hover {
-    background: url("/Img/hg3.jpg") no-repeat;
+    background: url("/Img/hg1.jpg") no-repeat;
+   
   }
 
   #Flamel:hover {
-    background: url("/Img/ts1.jpg") no-repeat;
+    background: url("/Img/gfn.jpg") no-repeat;
+    
   }
 
 /*.side-picture{
@@ -87,7 +125,7 @@ max-width: auto;
 height:30%;
 overflow: hidden;
 } */
-.hidden {
+/*.hidden {
 margin-left: 15px;
 margin-top: 15px;
 margin-right: 15px;
@@ -97,7 +135,7 @@ display: none;
 
 
 }
-
+*/
   
 </style>
 <body style="background:lightgrey;">
@@ -132,12 +170,15 @@ display: none;
  <!---- <div class="hidden">
     <img src="Img/hmphandy.jpg" alt="Where it all started"/>
   </div> -->
+  <div class="Rahmen">
   <div class="flex-container">
-      <div class="photontext">
-      <!--<div class= "side-picture">
-         <img src="Img/eule1.jpg" alt="Founders of MagicConnect"/>-->
-      </div>
-      <div class="myText">
+      <!--<div class="photo">
+      <div class= "side-picture">
+         <img src="Img/eule1.jpg" alt="Founders of MagicConnect"/>
+      <img src="/Img/aae1c7695645345c3970e429bde7ccc2.png" id="owlbg" >
+        </div>              -->  
+      <div class="transbox">
+        <div class="myText">
         <h1 class="bottom">Über uns und Magic Connact</h1>
         <p>
         Eine Welt voller Möglichkeiten, du hast deine magischen Fähigkeiten entdeckt und suchst nun nach der passenden Schule für dich. Wir haben national und international die besten Schulen für Hexerei und Zauberei in unserem Netzwerk und wir werden für dich den passenden Platz finden.
@@ -159,11 +200,14 @@ display: none;
       <!---- <img class="founder" src="Img/gd1.jpg" alt="Gabrielle Delacour">
      </div>  -->
        
-       <img class="signature" id="Granger" src="Img/Hermine.png"      alt="Unterschrift Hermine Granger"/>
        
          <img class="signature" id="Flamel" src="Img/Flamel.png" alt="Unterschrift Graham Flamel"/>
+
+         
+       <img class="signature" id="Granger" src="Img/Hermine.png" alt="Unterschrift Hermine Granger"/>
       </div>
   </div>
+</div>
 </div>
     
      <!---- <img class="founder" src="Img/hg1.jpg" alt="Hermine Granger"> */

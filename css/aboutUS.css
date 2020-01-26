@@ -16,7 +16,7 @@
   font-family: "Copperplate Gothic";
   font-size: 2.25rem;
   font-weight: inherit;
-  color: white;
+  color: #494B49;
   text-align:right;
  }
 
@@ -27,7 +27,9 @@
 
  @media (max-width:400px) {
   .signature{
-    width:400%;
+    width:33,33%;
+    display: flex;
+    flex-direction: column;
   }
 }
    p.position
