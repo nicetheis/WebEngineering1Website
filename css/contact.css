@@ -10,6 +10,7 @@ form {
 }
 
 .form-container {
+    margin-top: 50px;
     background-color: white;
     max-width: 300px;
     border: 1px solid black;
