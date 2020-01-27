@@ -51,14 +51,12 @@ input[type=text], input[type=date], textarea, select {
   border: none;
   background: #f1f1f1;
 }
-select {
-  width: 97%;
-}
 
 .cancelbtn, .signupbtn {
   background-color: #4CAF50;
   color: white;
-  padding: 14px 20px;
+  text-align: center;
+  padding: 30px 0;
   margin: 8px 0;
   border: none;
   cursor: pointer;
@@ -67,16 +65,20 @@ select {
   opacity: 0.9;
 }
 
-button:hover {
+.cancelbtn:hover, .signupbtn:hover {
   opacity:1;
 }
 
 .cancelbtn {
-  padding: 14px 20px;
   background-color: #f44336;
 }
 
 .cancelbtn, .signupbtn {
   float: left;
-  width: 50%;
+  width: 45%;
+}
+@media screen and (max-width: 800px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
 }
