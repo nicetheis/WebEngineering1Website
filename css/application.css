@@ -168,19 +168,19 @@
 
 .quote_bild {
 	height: 300px;
-	margin-left: 8%;
-	background-image: url("../Img/application_mitarbeiter.png");
+	margin-left: 15%;
+	background-image: url("../Img/application_rektor.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 .quote2_bild {
 	width: 90%;
-	background-image: url("../Img/application_rektor.png");
+	background-image: url("../Img/application_mitarbeiter.png");
 	background-position: right;
 	margin-left: 0;
 }
 .quote1_text {
-	padding: 50px 20% 0 350px;
+	padding: 50px 20% 0 300px;
 	text-align: right;
 }
 .quote2_text {

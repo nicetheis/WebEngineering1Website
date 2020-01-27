@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Magic Connect</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/navigation.css">
     <style>
         * {
@@ -17,8 +18,11 @@
             font-family: Arial, Helvetica, sans-serif;
             margin-right: 15%;
             margin-left: 15%;
-            margin-bottom: 80px;
+            margin-bottom: 50px;
             margin-top: 80px;
+            padding: 2%;
+            border: 3px solid #FEA405;
+            background-color: lightgray;
         }
 
         /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -32,7 +36,7 @@
         }
 
         /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 600px) {
             .text {
                 font-family: Arial, Helvetica, sans-serif;
                 margin-right: 2%;
@@ -62,9 +66,9 @@
         </div>
         <div class="nav-links">
             <a href="aboutUs.html">Über Uns</a>
-            <a href="application.html">Bewerben</a>
-            <a href="career.html">Karriere</a>
+            <a href="application.html">Schulbewerbung</a>
             <a href="schools.html">Schulen</a>
+            <a href="career.html">Karriere</a>
             <a href="help.html">Hilfe</a>
         </div>
     </div>
@@ -1218,9 +1222,19 @@
 
 
     <div class="footer">
-        <a href="contact.html">Kontakt</a>
-        <a href="imprint.html">Impressum</a>
-        <a href="dataProtection.html">Datenschutz</a>
+        <div class="footer_icon">
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.google.com/" target="_blank" class="fa fa-google"></a>
+            <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-ghost"></a>
+        </div>
+        <div class="footer_text">
+            <a href="contact.html">Kontakt</a>
+            <a href="imprint.html">Impressum</a>
+            <a href="dataProtection.html">Datenschutz</a>
+        </div>
     </div>
 </body>
 
