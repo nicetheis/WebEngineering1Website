@@ -21,23 +21,22 @@ Bereits erfolgreich durch den Validator:
 	aboutUs
 	help
 	dataProtection
-	index
+	index.html --> marquee!
 	application.css
 	application_popup.css
 	aboutUs.css
+	career.html
 	careerstyle.css
 	contact.css
 	navigation.css
 	schule.css
 	style.css
+	imprint.html
+	impressum.css
+	home.css
+	
 
 
 Noch zu testende Seiten:
-	career
-	imprint
 	schools
-	
-
-Hat den Validator gefailed:
-	home.css	"Ungültige Nummer : direction row ist kein direction-Wert : row"
 	
