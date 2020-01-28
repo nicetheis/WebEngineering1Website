@@ -8,32 +8,19 @@
   }
   
   body {
+<<<<<<< HEAD:css/impressum.css
+    font-family:"Copperplate Gothic";
+    height: 100%;
+=======
     font-family: 'Copperplate Gothic';
+>>>>>>> 602600e5d3b6692f5e6e9fb43a7af7ff9d1a8142:impressum.css
     font-size: 22px;
     margin: 0;
+    margin-top: 50px;
     background-color: whitesmoke;
   }
-  .fixed {
-    position:fixed;
-    width:100%;
-    top:0;
-    left:0;        
-  }
-  /* Header/logo Title */
-  .header {
-    padding: 80px;
-    text-align: center;
-    background-image: url('/pic/11.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position: center;
-    background-size: 100% 1000px;
-    position: relative;
-    color: #741922;
-  }
-  .header h1 {
-    font-size: 40px;
-  }
+  
+ 
   .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
@@ -63,27 +50,68 @@
   
 .show {display:block;}
   
-
-  /* Style the top navigation bar */
-  .navbar {
-    overflow: hidden;
-    background-color: #741922;
-  }
-  
-  /* Style the navigation bar links */
-  .navbar a {
-    float: left;
-    display: block;
-    color: black;
+  /* Footer */
+  .footer {
+    position: relative;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: 60px;
+    padding-top: 10px;
     text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-  }
-  .navbar a:hover {
     background-color: #494B49;
-    color: black;
   }
   
+<<<<<<< HEAD:css/impressum.css
+  .footer > a {
+    color: lightgray;
+    padding: 10px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    width: 50px;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+=======
+>>>>>>> 602600e5d3b6692f5e6e9fb43a7af7ff9d1a8142:impressum.css
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 700px) {
     .row {   
