@@ -45,7 +45,7 @@ body {
 @media screen and (min-width: 600px) and (max-width: 800px) {
   .side_container {
     display: flex;
-    direction: row;
+    flex-direction: row;
   }
 }
 
