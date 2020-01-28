@@ -28,6 +28,8 @@ Bereits erfolgreich durch den Validator:
 	careerstyle.css
 	contact.css
 	navigation.css
+	schule.css
+	style.css
 
 
 Noch zu testende Seiten:
