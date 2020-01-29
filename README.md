@@ -34,9 +34,5 @@ Bereits erfolgreich durch den Validator:
 	imprint.html
 	impressum.css
 	home.css
-	
-
-
-Noch zu testende Seiten:
-	schools
+	schools.hmtl
 	
