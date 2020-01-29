@@ -7,7 +7,6 @@ body {
   height: 100%;
   font-size: 22px !important;
   margin-top: 50px;
-  padding: 12px;
 }
 
 .main {  
@@ -42,7 +41,6 @@ body {
 .content {
   background-color: white;
   padding: 10px;
-  box-align: center;
 }
 .text link:hover {
 color: red;
@@ -70,72 +68,7 @@ color: red;
 .column .content img:hover{
   box-shadow: 0 4px 8px 0#074082, 0 6px 20px 0 #074082;
 }
-  /* Footer */
-  .footer {
-    position: relative;
-    left:0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    height: 170px;
-    padding-top: 30px;
-    text-align: center;
-    background-color: #494B49;
-  }
 
-  .footer_icon {
-    font-size: 28px;
-  }
-
-  .footer_text {
-    padding: 10px;
-    font-size: 18px;
-  }
-  .footer > a {
-    color: lightgray;
-    padding: 10px;
-  }
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-    width: 50px;
-  }
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-
-  .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
   /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
@@ -162,49 +95,4 @@ color: red;
   h1{
     font-size: 15px;
   }
-  .footer {
-    height: 250px;
-  }
 }
-
-.footer_icon {
-  font-size: 28px;
-}
-
-.footer_text {
-  padding: 10px;
-  font-size: 18px;
-}
-
-.footer > * > a {
-  color: lightgray;
-  margin: 10px;
-}
-.fa-facebook {
-background: #3B5998;
-color: white;
-}
-.fa-twitter {
-background: #55ACEE;
-color: white;
-}
-.fa-google {
-background: #dd4b39;
-color: white;
-}
-.fa-youtube {
-background: #bb0000;
-color: white;
-width: 50px;
-}
-.fa-instagram {
-background: #125688;
-color: white;
-}
-.fa-snapchat-ghost {
-background: #fffc00;
-color: white;
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
- 
