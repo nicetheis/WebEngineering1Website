@@ -53,6 +53,7 @@ body {
   border: 3px solid #333;
   margin-bottom: -15px;
   margin-top: 5px;
+  height: 200px;
 }
 
 .slider-holder {
